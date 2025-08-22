@@ -48,6 +48,9 @@ export default function ThemeToggle({
          } else if (numDark == 3) {
             setMin2(150);
             setMax2(150);
+         } else if (numDark == 4) {
+            setMin2(182);
+            setMax2(182);
          } else {
             setMin2(null);
             setMax2(null);
