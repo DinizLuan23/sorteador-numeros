@@ -1,6 +1,12 @@
 import ThemeToggle from './ThemeToggle'
 
-export default function Header() {
+type PropsHeader = {
+  history: any,
+  setMin2: any,
+  setMax2: any
+}
+
+export default function Header({ history, setMin2, setMax2 }: PropsHeader) {
   return (
     <header className="sticky top-0 z-40 backdrop-blur bg-white/70 border-b border-gray-200 dark:bg-slate-900/60 dark:border-slate-800">
       <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
@@ -15,7 +21,7 @@ export default function Header() {
           <a href="#contato" className="hover:text-brand-500">Contato</a>
         </nav>
         <div className="flex items-center gap-3">
-          <ThemeToggle />
+          <ThemeToggle history={history} setMin2={setMin2} setMax2={setMax2} />
           <a
             href="https://github.com/"
             target="_blank"
