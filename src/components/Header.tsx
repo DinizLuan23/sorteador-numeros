@@ -12,7 +12,7 @@ export default function Header({ history, setMin2, setMax2 }: PropsHeader) {
       <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2 font-bold">
           <span className="inline-flex h-8 w-8 items-center justify-center rounded-xl bg-brand-500 text-white">S</span>
-          <span>Sorteio</span>
+          <span>de Sorteio</span>
         </a>
         <nav className="hidden sm:flex items-center gap-6 text-sm">
           <a href="#gerador" className="hover:text-brand-500">Gerador</a>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .bg { fill: #102C41; }
+      .letter { fill: #ffffff; font: 320px sans-serif; font-weight: 700; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="512" height="512" rx="112" ry="112" class="bg"/>
+  <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" class="letter">S</text>
+</svg>

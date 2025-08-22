@@ -24,7 +24,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="text-center text-xs text-gray-500 dark:text-slate-500 pb-8">
-        © {new Date().getFullYear()} Sorteio — Feito com React + Tailwind
+        © {new Date().getFullYear()} <strong>S</strong> de Sorteio
       </div>
     </footer>
   )
