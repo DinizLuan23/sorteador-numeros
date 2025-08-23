@@ -36,27 +36,27 @@ export default function ThemeToggle({
       }
    }, [dark]);
 
-   useEffect(() => {
-      if (history.length >= 1) {
-         setMin2(null);
-         setMax2(null);
-         return;
-      } else {
-         if (numDark == 2) {
-            setMin2(124);
-            setMax2(124);
-         } else if (numDark == 3) {
-            setMin2(150);
-            setMax2(150);
-         } else if (numDark == 4) {
-            setMin2(182);
-            setMax2(182);
-         } else {
-            setMin2(null);
-            setMax2(null);
-         }
-      }
-   }, [numDark, history]);
+   // useEffect(() => {
+   //    if (history.length >= 1) {
+   //       setMin2(null);
+   //       setMax2(null);
+   //       return;
+   //    } else {
+   //       if (numDark == 2) {
+   //          setMin2(124);
+   //          setMax2(124);
+   //       } else if (numDark == 3) {
+   //          setMin2(150);
+   //          setMax2(150);
+   //       } else if (numDark == 4) {
+   //          setMin2(182);
+   //          setMax2(182);
+   //       } else {
+   //          setMin2(null);
+   //          setMax2(null);
+   //       }
+   //    }
+   // }, [numDark, history]);
 
    return (
       <button

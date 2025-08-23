@@ -174,8 +174,8 @@ export default function App() {
 
          const exclude = parseExclude();
 
-         let auxMin = (min2 && count == 1) ? min2 : min;
-         let auxMax = (max2 && count == 1) ? max2 : max;
+         let auxMin = min2 && count == 1 ? min2 : min;
+         let auxMax = max2 && count == 1 ? max2 : max;
 
          const nums = drawNumbers({
             count,
